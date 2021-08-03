@@ -1,0 +1,167 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="./assest/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <title>Age Calculator</title>
+</head>
+
+<body>
+
+
+    <div class="container-fluid background">
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-sm-12">
+
+                    <div class="card">
+                        <div class="card-header bg-dark text-success">
+                            <center>
+
+                                <h1><i class="fa fa-calculator"></i></h1>
+                                <div class="display-1">AGE CALCULATOR</div>
+
+
+                            </center>
+
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="card-body">
+                                <div class="row">
+
+                                    <div class="col-sm-6">
+                                        <div class="float-right">
+                                            <img src="https://image.freepik.com/free-vector/person-different-ages_23-2148420038.jpg" alt="person" width="350" height="350">
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-6 mt-10">
+                                        <div class="age">
+                                            <div class="h1">When were you born?</div>
+
+
+                                            <input type="date" id="dob" /><br><br>
+                                            <button class="btn btn-success btn-lg" type=" submit " onclick="calage() ">Calculate Age</button>
+
+
+
+                                            <!--<input type="reset">-->
+                                            <p id="demo"></p>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!--cards splits for hours days months year-->
+
+                        <div class="card-group">
+                            <div class="card bg-dark">
+                                <div class=" card border-info mb-3 ">
+                                    <div class="card-body ">
+                                        <center>
+                                            <h1 class="card-title text-success ">YEARS</h1>
+                                        </center>
+                                        <center>
+
+                                            <h1>
+                                                <div id="ears"></div>
+                                            </h1>
+                                        </center>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card bg-dark ">
+                                <div class="card border-info mb-3 ">
+                                    <div class="card-body ">
+                                        <center>
+                                            <h1 class="card-title text-success ">MONTHS</h1>
+                                        </center>
+                                        <center>
+
+                                            <h1>
+                                                <div id="nths"></div>
+                                            </h1>
+                                        </center>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card bg-dark ">
+                                <div class="card border-info mb-3 ">
+                                    <div class="card-body ">
+                                        <center>
+                                            <h1 class="card-title text-success ">DAYS</h1>
+                                        </center>
+                                        <center>
+
+                                            <h1>
+                                                <div id="ays"></div>
+                                            </h1>
+                                        </center>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="card bg-dark ">
+                                <div class="card border-info mb-3">
+                                    <div class=" card-body ">
+                                        <center>
+                                            <h1 class="card-title text-success ">HOURS</h1>
+                                        </center>
+                                        <center>
+
+                                            <h1>
+                                                <div id="ours"></div>
+                                            </h1>
+                                        </center>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="/script.js "></script>
+
+
+
+
+
+
+
+    <!-- Bootstrap JS-->
+    <script src="./assest/js/jquery.min.css "></script>
+    <script src="./assest/js/bootstrap.min.js "></script>
+</body>
+
+</html>

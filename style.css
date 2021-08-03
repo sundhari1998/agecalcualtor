@@ -1,0 +1,18 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.background {
+    background: url(https://cdn.wallpapersafari.com/24/14/kBCOL5.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.age {
+    padding-top: 80px;
+}
